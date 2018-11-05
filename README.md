@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
+This excercise is to render a combo of image inputs to be viewed
+  as they change, also some other children that have the same combo of images.
+
+In order to fulfill what required I had to be able to Get user input from a template reference variable as:
+
+## <input #box placeholder="Img URL" (keyup)="sendChange(box.value)">
+
+which documentation can be found at (this page)[https://angular.io/guide/user-input]
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
