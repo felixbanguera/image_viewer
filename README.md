@@ -5,13 +5,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This excercise is to render a combo of image inputs to be viewed
   as they change, also some other children that have the same combo of images.
 
-(test)[+https://raw.githubusercontent.com/felixbanguera/image_viewer/master/src/assets/test.png]
+![test](https://raw.githubusercontent.com/felixbanguera/image_viewer/master/src/assets/test.png)
 
 In order to fulfill what required I had to be able to Get user input from a template reference variable as:
 
 ## <input #box placeholder="Img URL" (keyup)="sendChange(box.value)">
 
-which documentation can be found at (this page)[https://angular.io/guide/user-input]
+which documentation can be found at [this page](https://angular.io/guide/user-input)
 
 ## Development server
 
